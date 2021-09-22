@@ -3,6 +3,7 @@ package com.example.davaleba3
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.view.View
 import android.widget.Toast
 import com.example.davaleba3.databinding.ActivityMainBinding
 
@@ -36,6 +37,14 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun toast(){
+        if (!binding.eMail.text.toString().contains('@') && !binding.eMail.text.toString()
+                .contains('.')){
+            Toast.makeText(this, getString(R.string.invalidEmail), Toast.LENGTH_LONG).show()
+
+        }
+
+    }
 
     private fun lessThan10() {
         Toast.makeText(this, getString(R.string.usernameLessThan10), Toast.LENGTH_LONG).show()
@@ -60,6 +69,8 @@ class MainActivity : AppCompatActivity() {
         binding.age.text?.clear()
 
     }
+
+
 
 
 }
