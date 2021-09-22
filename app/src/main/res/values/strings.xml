@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">davaleba3</string>
+    <string name="profile_info">Profile Info</string>
+    <string name="e_mail">e-mail</string>
+    <string name="first_name">First Name</string>
+    <string name="user_name">User Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="age">Age</string>
+    <string name="save">SAVE</string>
+    <string name="clear">CLEAR</string>
+    <string name="usernameLessThan10">“Username” ში შეყვანილი სიმბოლოების რაოდენობა არ უნდა იყოს 10-ზე ნაკლები.</string>
+    <string name="invalidEmail">Invalid Email!!!</string>
+    <string name="ageRestriction">ასაკი უნდა იყოს მთელი დადებითი რიცხვი!!!</string>
+    <string name="checkFields">აუცილებელია შეივსოს ყველა ველი!!!</string>
+    <string name="thankYou">Thank you for your cooperation</string>
+</resources>
